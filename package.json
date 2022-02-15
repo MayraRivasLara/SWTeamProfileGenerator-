@@ -1,0 +1,19 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "team.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayraRivasLara/SWTeamProfileGenerator-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayraRivasLara/SWTeamProfileGenerator-/issues"
+  },
+  "homepage": "https://github.com/MayraRivasLara/SWTeamProfileGenerator-#readme"
+}
