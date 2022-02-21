@@ -1,5 +1,6 @@
-function generateHtmlFile() {
+function generateHtmlFile(employees) {
 
+    return 'abc'
 
 }
 
