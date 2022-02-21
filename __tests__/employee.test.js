@@ -7,7 +7,6 @@ describe('Employee class test', ()  => {
     it('can be instantiated', () => {
         const employee = new Employee("Employee Name", 710, 'xx@test.com')
         expect(employee).toBeInstanceOf(Employee);
-
     });
     
     // Constructor
@@ -39,28 +38,28 @@ describe('Employee class test', ()  => {
         const result = employee.getName();
         expect(result).toBe(name);
     });
-});
-
-// test: getEmail()
-it('can get the employee email by running the getEmail()', () => {
-    const truth = "xx@test.com";
-    const employee = new Employee("Employee Name", 710, truth);
-    const result = employee.getEmail();
-    expect(result).toBe(truth);
-});
-
-// test: getRole()
-it('can get the employee role by running the getRole()', () => {
-    const truth = "Employee";
-    const employee = new Employee("Employee Name", 710, "xx@test.com");
-    const result = employee.getRole();
-    expect(result).toBe(truth);
-});
-
-// test: getId()
-it('can get the employee id by running the getId()', () => {
-    const truth = "710";
-    const employee = new Employee("Employee Name", truth, "xx@test.com");
-    const result = employee.getId();
-    expect(result).toBe(truth);
+    
+    // test: getEmail()
+    it('can get the employee email by running the getEmail()', () => {
+        const truth = "xx@test.com";
+        const employee = new Employee("Employee Name", 710, truth);
+        const result = employee.getEmail();
+        expect(result).toBe(truth);
+    });
+    
+    // test: getRole()
+    it('can get the employee role by running the getRole()', () => {
+        const truth = "Employee";
+        const employee = new Employee("Employee Name", 710, "xx@test.com");
+        const result = employee.getRole();
+        expect(result).toBe(truth);
+    });
+    
+    // test: getId()
+    it('can get the employee id by running the getId()', () => {
+        const truth = "710";
+        const employee = new Employee("Employee Name", truth, "xx@test.com");
+        const result = employee.getId();
+        expect(result).toBe(truth);
+    });
 });
