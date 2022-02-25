@@ -25,16 +25,9 @@ function questions() {
         },
 
         {
-            // name 
+            // name
             message: "What is the employee's name?",
-            name: "Employee name",
-            type: "input",
-        },
-
-        {
-            // email
-            message: "What is the employee's email?",
-            name: "email",
+            name: "name",
             type: "input",
         },
 
@@ -44,7 +37,14 @@ function questions() {
             name: "id",
             type: "input",
         },
-
+        
+        {
+            // email
+            message: "What is the employee's email?",
+            name: "email",
+            type: "input",
+        },
+        
         //specific question for each category
         {
             message: "What is the employee's office number?",
@@ -81,8 +81,8 @@ function questions() {
             employees.push(
                 new Manager(
                     answer.name,
-                    answer.email,
                     answer.id,
+                    answer.email,
                     answer.officeNumber,
                 )
             );
@@ -92,8 +92,8 @@ function questions() {
             employees.push(
                 new Engineer(
                     answer.name,
-                    answer.email,
                     answer.id,
+                    answer.email,
                     answer.github,
                 )
             );
@@ -103,8 +103,8 @@ function questions() {
             employees.push(
                 new Intern(
                     answer.name,
-                    answer.email,
                     answer.id,
+                    answer.email,
                     answer.schoolName,
                 )
             );

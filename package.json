@@ -1,16 +1,16 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI application that generates a HTML team profile which contains basic information from each employee",
   "main": "team.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MayraRivasLara/SWTeamProfileGenerator-.git"
   },
-  "author": "",
+  "author": "Mayra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MayraRivasLara/SWTeamProfileGenerator-/issues"
