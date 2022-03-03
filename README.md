@@ -6,7 +6,6 @@ This is a Command Line Application that enables users to store and manage inform
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
